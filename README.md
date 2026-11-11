@@ -18,3 +18,16 @@
 - Add user login functionality.
 - Introduce subject-wise categories.
 - Improve the user interface.
+
+
+## Note Management Features
+
+CampusNotes allows students to:
+- Add study notes.
+- View saved notes.
+- Search notes using keywords.
+- Update existing notes.
+- Delete unwanted notes.
+- Filter notes according to subjects.
+
+All notes are stored locally in a JSON file.
