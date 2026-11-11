@@ -34,6 +34,8 @@ class NotesManager:
             if keyword in note["subject"].lower()
             or keyword in note["content"].lower()
         ]
+        if not keyword.strip():
+        return []
     def get_total_notes(self):
         return len(self.notes)
 
