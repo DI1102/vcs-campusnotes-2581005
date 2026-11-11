@@ -82,3 +82,5 @@ class NotesManager:
             if note.get("updated_at"):
                 print(f"Updated: {note['updated_at']}")
             print("------------------------------")
+            print("------------------------------")
+print()
